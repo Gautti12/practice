@@ -1,0 +1,137 @@
+ <!DOCTYPE html>
+
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>components</title>
+    <meta name="twitter:" content=" initial-scale=1.0,user-scalable= yes">
+    <style >
+      #components{
+      width: 1050px;
+
+    /*  border: 1px solid gray;*/
+      margin:0 auto;
+    }
+    #header{
+      height: 100px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #brand{
+
+  display: flex;
+   /*  float:left;*/
+    flex: 1;
+      margin: 10px;
+    }
+    h a{
+      font-size:50px;
+      font-weight: 100;
+      color: green;
+      text-decoration: none;
+    }
+     #searchbox{
+       display: flex;
+       width: 300px;
+       height:40px;
+      /*  float: right;*/
+      flex: 1;
+        padding:15px 20px 0px 20px ;
+        margin-right: 30px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        background: seagreen ;
+      }
+      .text{
+        float: left;
+        color: red;
+        padding: 5px;
+
+      }
+      .submit{
+        color: white;
+        float: right;
+        padding: 5px;
+        font-weight: bold;
+        background: purple;
+
+      }
+      ul{
+        list-style: none;
+
+
+      }
+      #menu ul li{
+        float: left;
+        padding: 0 30px;
+        height: 30px;
+         border-right: 2px solid darkblue;
+
+
+      }
+      #menu{
+      height: 70px;
+      background: yellow;
+      padding:8px 0;
+      }
+      #menu ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: darkblue;
+        line-height: 30px;
+        transition: font-size 0.6s ease;
+      }
+      #menu ul li a:hover,#menu ul li a.active{
+        font-size: 30px;
+        font-weight: bold;
+        color: purple;
+      }
+      #intro{
+        background: linear-gradient(#E5F2BB,#B7E952 );
+        padding: 30px 40px ;
+        margin: 20px 0;
+      }
+      #intro h1{
+        font-size: 40px;
+        color: green;
+
+      }
+      #intro p{
+        font-size: 30px;
+        color: green;
+      }
+
+
+    </style>
+
+  </head>
+  <body>
+    <div id="components">
+      <div id="header">
+        <div id="brand">
+          <h> <a href="#">फसल</a></h>
+          </div>
+        <div id="searchbox">
+           <form  method="get">
+             <input type="text" class="text">
+             <input type="submit" class="submit" value="search a topic">
+
+           </form>
+      </div>
+    </div>
+    <div id="menu">
+      <ul>
+        <li><a href="#" class="active">home</a></li>
+        <li><a href="#">services</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="#">order</a></li>
+      </ul>
+    </div>
+    <div id="intro">
+      <h1> DO YOU WANT TO SELL US</h1>
+      <p>you can call us on following number and our team will contact you as soon as possible<br> OR you can sell the product directlly on our website with in 12 hour our member collect item from you</p>
+    </div>
+  </div>
+  </body>
+</html>

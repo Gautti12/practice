@@ -1,0 +1,54 @@
+<!DOCTYPE html >
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> form </title >
+  <meta name="twitter" content=" initial-scale=1.0,user-scalable= yes"  >
+
+</head>
+  <body>
+    <h1> this is basic information form </h1>
+    <div>
+      <form  action="index.html" >
+          <div >
+        <label for="fname">NAME:</label>
+           <input type="text" name=" mynmae" id="fname" placeholder="name">
+          <br>
+
+          <label for="lname">LAST NAME:</label>
+           <input type="text" name="lastname"  id="lname" placeholder="last name">
+          <br>
+
+        <label for="dob">DATE OF BIRTH:</label>
+        <input type="date" name="datebirth" id="dob" placeholder="birth date">
+        <br>
+        <p>select your method of shipping</p>
+        <select class="shipping" name="shipping">
+          <option value="self"> ship the pdt by self</option>
+          <option value="though us"> ship the pdt though our service</option>
+          <option value="third party"> ship the pdt by any other party</option>
+          </select>
+          <br>
+          <p>CHOOSE YOUR PAYMENT METHOD</p>
+          <label>CASH
+            <input type="radio" name="PAYMENT"  value="cash">
+          </label>
+          <label>UPI
+          <input type="radio"name="PAYMENT"  value="UPI"></label>
+
+          <label>DABIT CARD
+          <input type="radio"name="PAYMENT"  value="CARD"></label>
+          <br>
+          <label >all the datils are right
+
+          <input type="checkbox"name="save datils"></label>
+          <br>
+          <label for="comment">COMMENT</label>
+          <textarea name="comment" rows="8" cols="80" id="comment"></textarea>
+
+        </div>
+
+      </form>
+    </div>
+  </body>
+  </html>
